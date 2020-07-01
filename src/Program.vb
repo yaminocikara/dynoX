@@ -8,7 +8,7 @@ Module Program
 
     Dim ngrok As New Process
     Dim ttyd As New Process
-    Dim id As Integer = 730560650
+   
     Dim exitcmd As Boolean
     Sub Main(Args As String())
         IO.Directory.CreateDirectory("/root/herokupatcher")
