@@ -1,6 +1,7 @@
 FROM ubuntu:latest
 USER root
 ENV TZ=Europe/Istanbul
+RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
 RUN mkdir /root/dynoX
 WORKDIR /root/dynoX/
 RUN apt update
@@ -17,6 +18,7 @@ RUN apt update
 RUN apt install -y dotnet-sdk-3.1
 
 #COPY dynoX /root/dynoX/
+RUN rm -r /root/dynoX/src
 RUN chmod +x /root/dynoX/dynoX
 RUN chmod +x /root/dynoX/ttyd
 RUN chmod +x /root/dynoX/ngrok

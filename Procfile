@@ -1,1 +1,1 @@
-worker: /root/herokupatcher/herokupatcher
+worker: /root/dynoX/dynoX
