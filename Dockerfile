@@ -22,6 +22,4 @@ RUN rm -r /root/dynoX/src
 RUN chmod +x /root/dynoX/dynoX
 RUN chmod +x /root/dynoX/ttyd
 RUN chmod +x /root/dynoX/ngrok
-RUN useradd -m  -s /bin/bash basar
-RUN usermod -aG root basar
 CMD ["/root/dynoX/dynoX"]
