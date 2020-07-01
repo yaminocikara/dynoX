@@ -1,5 +1,6 @@
 # dynoX
 ## Türkçe Döküman --> [README Türkçe](README-TR.md)
+## Türkçe Ayrıntılı Anlatım --> [Forum Postu](https://over-click.codes/index.php?threads/heroku-dynox-kurulumu-ayrintili-anlatim.37/)
 ## Access Heroku Bash with TTYD and NGROK
 [![Deploy To Heroku!](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/bsglinux16/dynoX)
 ### Usage:
