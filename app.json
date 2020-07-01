@@ -1,0 +1,15 @@
+{
+  "name": "dynoX",
+  "description": "Access Heroku Bash with TTYD and NGROK",
+  "logo": "https://avatars1.githubusercontent.com/u/35398147?s=460&u=f63efc057c393f51baf2cdab0e958ad5949cbd4c&v=4",
+  "keywords": [
+    "heroku",
+    "dynos",
+    "dynoX",
+    "overclick"
+  ],
+  "repository": "https://github.com/bsglinux16/dynoX",
+  "website":   "https://over-click.codes",
+  "success_url": "https://t.me/overclickofficial",
+  "stack": "container"
+}
